@@ -2,10 +2,18 @@
   margin: 0;
 }
 
-html, body {
+html,
+body {
   height: 100%;
 }
 
 body {
-  background-color: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#hextext {
+  font-family: 'Roboto Mono', monospace;
+  font-size: 150px;
 }
