@@ -1,2 +1,2 @@
 # hexclock.io
-A colorful hex clock website
+[A hexadecimal colored 24 hour clock](https://hexclock.io/)
