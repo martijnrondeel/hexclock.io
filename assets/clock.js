@@ -1,6 +1,6 @@
 // Cache the accessed DOM elements
-const cachedBackgroundElement = document.getElementById('colored-background');
-const cachedTextElement = document.getElementById('hextext');
+const cachedBackgroundElement = document.getElementById('colored-background'),
+  cachedTextElement = document.getElementById('colored-text');
 
 // Pad the number with 0's if needed
 function zeroPadNumber(number) {

@@ -23,7 +23,7 @@ a:hover {
   color: #ffffff;
 }
 
-#hextext {
+#colored-text {
   margin: auto;
   font-family: 'Roboto Mono', monospace;
   font-size: 150px;
@@ -47,7 +47,7 @@ a:hover {
 }
 
 @media only screen and (max-width: 700px) {
-  #hextext {
+  #colored-text {
     font-size: 20vw;
   }
 }
