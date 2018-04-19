@@ -1,53 +1,53 @@
 * {
-    margin: 0;
+  margin: 0;
 }
 
 html,
 body {
-    height: 100%;
+  height: 100%;
 }
 
 body {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-		align-items: center;
-		color: hsla(0, 0%, 100%, .9);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: hsla(0, 0%, 100%, .9);
 }
 
 a {
-    color: hsla(0, 0%, 100%, .5);
-    text-decoration-style: dotted;
+  color: hsla(0, 0%, 100%, .5);
+  text-decoration-style: dotted;
 }
 
 a:hover {
-    color: #ffffff;
+  color: #ffffff;
 }
 
 #colored-text {
-    margin: auto;
-    font-family: 'Roboto Mono', monospace;
-    font-size: 150px;
+  margin: auto;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 150px;
 }
 
 #footer {
-    margin-bottom: 5px;
-    font-family: 'Lato', sans-serif;
-    font-size: 14px;
-    text-align: center;
-    line-height: 18px;
+  margin-bottom: 5px;
+  font-family: 'Lato', sans-serif;
+  font-size: 14px;
+  text-align: center;
+  line-height: 18px;
 }
 
 #heart {
-    color: #e60000;
+  color: #e60000;
 }
 
 #github {
-    color: #00ffff;
+  color: #00ffff;
 }
 
 @media only screen and (max-width: 700px) {
-    #colored-text {
-        font-size: 20vw;
-    }
+  #colored-text {
+    font-size: 20vw;
+  }
 }
